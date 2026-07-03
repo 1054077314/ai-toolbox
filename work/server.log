@@ -1,0 +1,24 @@
+INFO:     Started server process [18452]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+C:\Users\王\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'yunwu.ai'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO:     127.0.0.1:4728 - "POST /api/gpt-image/generate HTTP/1.1" 502 Bad Gateway
+INFO:     192.168.0.9:7239 - "POST /api/image/recognize/upload HTTP/1.1" 200 OK
+C:\Users\王\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'yunwu.ai'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO:     127.0.0.1:14828 - "POST /api/gpt-image/generate HTTP/1.1" 502 Bad Gateway
+INFO:     192.168.0.9:7239 - "GET /api/prompt/config HTTP/1.1" 200 OK
+INFO:     192.168.0.9:7488 - "POST /api/prompt/generate-single HTTP/1.1" 200 OK
+INFO:     192.168.0.9:8917 - "GET /api/prompt/history?page=1&page_size=20&sort=latest HTTP/1.1" 200 OK
+C:\Users\王\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'yunwu.ai'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO:     192.168.0.9:7488 - "POST /api/gpt-image/generate HTTP/1.1" 502 Bad Gateway
+C:\Users\王\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'yunwu.ai'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\王\AppData\Local\Programs\Python\Python314\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'yunwu.ai'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO:     127.0.0.1:14418 - "POST /api/gpt-image/generate HTTP/1.1" 502 Bad Gateway
+INFO:     192.168.0.9:3612 - "GET /api/prompt/history?page=1&page_size=20&sort=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:5218 - "GET /api/health HTTP/1.1" 200 OK
